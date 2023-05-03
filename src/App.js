@@ -1,13 +1,23 @@
 import './App.css';
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import DrawerAppBar from './Components/DrawerAppBar';
+import Navbar from './Components/Navbar';
+import Homepage from './Components/Homepage';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Button variant="contained">Hello World</Button>
-      <DrawerAppBar/>
+      <Router>
+      <Navbar />
+        <Routes>
+          <Route exact path="/"><Homepage /></Route>
+          <Route path="/"></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
