@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/junction/static/css/main.19ed67a9.css",
+    "main.js": "/junction/static/js/main.dc1e4fa3.js",
+    "static/js/787.a8e2d064.chunk.js": "/junction/static/js/787.a8e2d064.chunk.js",
+    "static/media/winsurtech-bg1.png": "/junction/static/media/winsurtech-bg1.0af1a3ef319bb03a8cbb.png",
+    "index.html": "/junction/index.html",
+    "main.19ed67a9.css.map": "/junction/static/css/main.19ed67a9.css.map",
+    "main.dc1e4fa3.js.map": "/junction/static/js/main.dc1e4fa3.js.map",
+    "787.a8e2d064.chunk.js.map": "/junction/static/js/787.a8e2d064.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19ed67a9.css",
+    "static/js/main.dc1e4fa3.js"
+  ]
+}
