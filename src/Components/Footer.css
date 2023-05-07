@@ -1,0 +1,29 @@
+footer{
+    background: #095e80;
+}
+
+h3{
+    color: #f1a432;
+}
+
+ul{
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#falogo{
+    padding: 0px 12px;
+    color: white;
+}
+#falogo:hover{
+    color: #f1a432;
+}
+
+.company_rights{
+    text-align: right;
+    color: white;
+}

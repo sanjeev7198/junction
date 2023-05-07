@@ -1,0 +1,33 @@
+#signin_page{
+    height: calc(100vh - 119px);
+    width: 50%;
+}
+
+.card{
+    padding-top: 30px;
+    border: none;
+}
+
+.card-header{
+    text-align: center;
+    background: #095e80;
+    color: white;
+}
+
+a{
+    color: #1798A5;
+}
+
+.btn-linkedin{
+    background: #1798A5;
+}
+
+.btn-linkedin:hover{
+    background: #168d97;
+}
+
+@media (max-width: 1080px){
+    #signin_page{
+        width: 75%;
+    }
+}

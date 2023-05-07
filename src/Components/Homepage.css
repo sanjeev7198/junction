@@ -1,5 +1,103 @@
 .title-row{
     background-image: url('./winsurtech-bg1.png');
     background-size: cover;
-    min-height: 100vh;
+    height: calc(100vh - 119px);
+    align-content: center;
+    line-height: 30px;
+}
+
+.heading {
+    font-size: 50px;
+    text-indent: 0em;
+    font-weight: bold;
+    text-justify: inter-word;
+    color: #095e80;
+}
+
+.sub-heading {
+    font-size: 25px;
+}
+
+.homeText {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #7a630c !important;
+}
+p{
+    color: grey;
+}
+
+.quote {
+    background: #095e80;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    vertical-align: middle;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.body-heading {
+    font-size: 45px;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-group {
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.body-content {
+    justify-content: center;
+}
+
+#card {
+    width: 15em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    height: 21em;
+    background: #e1e9f5;
+}
+
+#card-header {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    margin: 10px auto;
+    background-color: #f2f2f2;
+    transition: all 0.4s ease;
+}
+
+p.text-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+
+ #card:hover #card-header{
+    background-color: #9acad4;
+    transition: all 0.3s ease;
+}
+#card:hover {
+    transition: transform .2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(65px);
+    opacity: 0;
+    transition: 1s all ease;
 }

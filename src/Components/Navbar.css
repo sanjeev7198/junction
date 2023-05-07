@@ -1,0 +1,14 @@
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #f1a432;
+}
+.navbar{
+    background: #095e80;
+}
+
+div#navbarNav {
+    padding-top: 30px;
+}
