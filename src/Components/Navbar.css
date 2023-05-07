@@ -5,6 +5,9 @@
 .nav-link:hover{
     color: #f1a432;
 }
+.nav-link:active{
+    color: #f1a432;
+}
 .navbar{
     background: #095e80;
 }

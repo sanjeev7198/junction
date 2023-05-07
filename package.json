@@ -1,7 +1,7 @@
 {
   "name": "junction",
   "version": "0.1.0",
-  "homepage": "https://sanjeev7198.github.io/",
+  "homepage": "https://sanjeev7198.github.io/junction/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.8",

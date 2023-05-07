@@ -1,20 +1,20 @@
 import React from 'react'
-import './Signin.css'
-const Signin = () => {
+
+const Signup = () => {
   return (
     <>
       <div className="container" id='signin_page'>
         <div className="card">
             <div className="card-header">
-                <h5>Login to your account</h5>
+                <h5>Sign up</h5>
             </div>
             <div className="card-body border">
                 <div className="row">
                     <div className="col">
-                        <button className="btn btn-danger w-100">Log in with Google</button>
+                        <button className="btn btn-danger w-100">Sign up with Google</button>
                     </div>
                     <div className="col">
-                        <button className="btn btn-linkedin text-white w-100">Log in with LinkedIn</button>
+                        <button className="btn btn-linkedin text-white w-100">Sign up with LinkedIn</button>
                     </div>
                 </div>
                 <form action='/'>
@@ -24,11 +24,14 @@ const Signin = () => {
                     <div className="form-group pt-4">
                         <input type="password" placeholder='Password' className='form-control' required/>
                     </div>
-                    <div className="justify-content-end d-flex pt-4">
-                        <button className="btn btn-primary" type='submit'>Log In</button>
+                    <div className="form-group pt-4">
+                        <input type="password" placeholder='Re-enter Password' className='form-control' required/>
                     </div>
-                    <div className="justify-content-end d-flex pt-4">
-                        <a href="/signup">Sign Up</a>&nbsp; | &nbsp;<a href="/signin">Forgot Password?</a>
+                    <div className="text-center pt-4">
+                        <button className="btn btn-primary" type='submit'>Sign up</button>
+                    </div>
+                    <div className="text-center pt-4">
+                        Already have an account?&nbsp;<a href="/signin">Log in</a>
                     </div>
                 </form>
             </div>
@@ -38,4 +41,4 @@ const Signin = () => {
   )
 }
 
-export default Signin
+export default Signup
