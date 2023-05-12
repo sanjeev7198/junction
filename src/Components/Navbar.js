@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src= {logo} alt="logo" width="150"/>
+            <img src= {logo} alt="logo" id="sitelogo" width="150"/>
           </Link>
           <button
             className="navbar-toggler"
@@ -39,9 +39,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link btn" to="/pricing">
+                <Link className="nav-link btn" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link btn" to="/contactus">

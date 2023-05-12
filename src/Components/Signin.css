@@ -3,17 +3,6 @@
     width: 50%;
 }
 
-.card{
-    padding-top: 30px;
-    border: none;
-}
-
-.card-header{
-    text-align: center;
-    background: var(--main);
-    color: white;
-}
-
 a{
     color: var(--base);
 }

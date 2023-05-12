@@ -13,11 +13,11 @@ function App() {
     <>
       <Router>
         <Navbar/>
-        <Pricing/>
           <Routes>
             <Route exact path="/" element={<Homepage />} />
             <Route path="/signin" element={<Signin/>} />
             <Route path="/signup" element={<Signup/>} />
+            <Route path="/pricing" element={<Pricing/>} />
           </Routes>
         <Footer/>
       </Router>

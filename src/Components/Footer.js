@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logo from './junction-logo2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faFacebookF, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -41,7 +41,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-md-4 text-center">
-                        <img src={logo} alt="logo" />
+                        <img src={logo} alt="logo" id="sitelogo"/>
                     </div>
                     <hr />
                     <div className="col">

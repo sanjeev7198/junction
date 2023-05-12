@@ -11,3 +11,19 @@
 .btn-primary:hover{
   background: var(--main);
 }
+
+#sitelogo{
+  filter: drop-shadow(0px 2px 0px black);
+}
+
+
+.card{
+  padding-top: 30px;
+  border: none;
+}
+
+.card-header{
+  text-align: center;
+  background: var(--main);
+  color: white;
+}
