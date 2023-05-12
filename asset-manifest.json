@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/junction/static/css/main.9acd287c.css",
-    "main.js": "/junction/static/js/main.efd2b159.js",
+    "main.css": "/junction/static/css/main.99a9c5b5.css",
+    "main.js": "/junction/static/js/main.2af1c92a.js",
     "static/js/787.a8e2d064.chunk.js": "/junction/static/js/787.a8e2d064.chunk.js",
     "static/media/winsurtech-bg1.png": "/junction/static/media/winsurtech-bg1.0af1a3ef319bb03a8cbb.png",
     "index.html": "/junction/index.html",
-    "main.9acd287c.css.map": "/junction/static/css/main.9acd287c.css.map",
-    "main.efd2b159.js.map": "/junction/static/js/main.efd2b159.js.map",
+    "main.99a9c5b5.css.map": "/junction/static/css/main.99a9c5b5.css.map",
+    "main.2af1c92a.js.map": "/junction/static/js/main.2af1c92a.js.map",
     "787.a8e2d064.chunk.js.map": "/junction/static/js/787.a8e2d064.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9acd287c.css",
-    "static/js/main.efd2b159.js"
+    "static/css/main.99a9c5b5.css",
+    "static/js/main.2af1c92a.js"
   ]
 }
