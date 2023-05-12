@@ -1,3 +1,13 @@
+:root {
+  --main: #008B8B;
+  --base: #2AA8A8;
+}
+
 .btn-primary{
-  background: #095e80;
+  background: var(--base);
+  border: none;
+}
+
+.btn-primary:hover{
+  background: var(--main);
 }

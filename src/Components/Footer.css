@@ -1,5 +1,5 @@
 footer{
-    background: #095e80;
+    background: var(--main);
 }
 
 h3{

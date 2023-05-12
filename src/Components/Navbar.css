@@ -9,7 +9,7 @@
     color: #f1a432;
 }
 .navbar{
-    background: #095e80;
+    background: var(--main);
 }
 
 div#navbarNav {

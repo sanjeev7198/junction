@@ -11,7 +11,7 @@
     text-indent: 0em;
     font-weight: bold;
     text-justify: inter-word;
-    color: #095e80;
+    color: var(--main);
 }
 
 .sub-heading {
@@ -30,7 +30,7 @@ p{
 }
 
 .quote {
-    background: #095e80;
+    background: var(--main);
     font-weight: 600;
     font-size: 25px;
     color: white;

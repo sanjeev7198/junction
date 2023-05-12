@@ -10,12 +10,12 @@
 
 .card-header{
     text-align: center;
-    background: #095e80;
+    background: var(--main);
     color: white;
 }
 
 a{
-    color: #1798A5;
+    color: var(--base);
 }
 
 .btn-linkedin{
